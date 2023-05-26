@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.space-menu{
+    margin-right: 20px;
+    
+}
+
+.heading-2{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 28px;
+}
+
+.heading-1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: red;
+}
+
+.main-text{
+    background-color: rgb(24, 62, 106);
+    background-image: url(./img/gym-background.jpg);
+    background-size: cover;
+}
+
+.nav-container{
+    padding-bottom:24px;
+    padding-top: 0px;
+    position: sticky;
+    top: 0;
+    background: white;
+       
+}
+
+.button {
+    min-width: 125px;
+    background-color: #000000; 
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 500ms ease; 
+    justify-content: flex-end;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+  
+  margin-right: 20px;
+
+  box-shadow: inset 0 0 0 0 grey;
+  transition: all 0.3s ease-out 0s;
+  outline: none;
+}
+
+.button:hover{
+    box-shadow: inset 125px  0 0 0 grey;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.logo{
+    width: 150px;
+    padding: 0px;
+    margin-top: -30px;
+    margin-bottom: -100px;
+}
+
+.columns{
+    display: flex;
+    gap: 2rem;
+    border: 10px solid firebrick;
+    flex-direction: row;
+    
+}
+
+.columns > * {
+    flex-basis: 100%;   
+}
+
+@media (min-width: 750px) {
+    .columns {
+        flex-direction: row;
+    }
+}
+
